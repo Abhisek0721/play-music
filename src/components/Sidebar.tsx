@@ -4,6 +4,7 @@ import { FaHome, FaSearch, FaBook, FaPlusSquare, FaHeart } from 'react-icons/fa'
 import { Link } from 'react-router-dom';
 
 const Sidebar = ():JSX.Element => {
+
     return (
         <div className="sidebar">
             <div className="row">

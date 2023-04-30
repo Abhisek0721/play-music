@@ -1,11 +1,27 @@
 import Sidebar from "../components/Sidebar";
-import { Outlet } from 'react-router-dom';
+import { Outlet, useNavigate } from 'react-router-dom';
 import Header from "../components/Header";
+import { useEffect, useState } from "react";
 
 const BasePage = ():JSX.Element => {
+
+    const navigate = useNavigate();
+    
+    const [isAuth, setIsAuth] = useState(false);
+
+    useEffect(()=>{
+        let checkToken:string|null = localStorage.getItem("userToken");
+        if(!checkToken){
+            navigate("/login");
+        }else{
+            setIsAuth(true);
+        }
+    },[]);
+
+
     return (
         <div>
-            <Header />
+            <Header isAuth={isAuth} />
             <section className="d-flex min-vw-100">
                 {/* sidebar */}
                 <div
