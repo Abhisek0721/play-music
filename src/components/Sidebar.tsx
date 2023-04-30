@@ -15,7 +15,7 @@ const Sidebar = ():JSX.Element => {
                         <span id="logo" className="fs-4 pt-4 align-middle">Play Music</span>
                     </Link>
 
-                    {/* <div style={{"paddingTop": "1px", "margin": "0px 10px"}} className="bg-primary"></div> */}
+                    <div style={{"paddingTop": "1px", "margin": "0px 10px"}} className="bg-primary"></div>
 
                     <ul className="nav flex-column ms-5 mt-4">
                         <Link to={"/"}>

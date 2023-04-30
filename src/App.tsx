@@ -1,7 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./css/common.css";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
-// import SidebarMenu from "./components/Sidebar";
-// import Header from "./components/Header";
 import Home from "./pages/Home";
 import "./App.css";
 import Signup from "./pages/Signup";
