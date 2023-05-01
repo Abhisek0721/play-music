@@ -7,6 +7,7 @@ import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import BasePage from "./pages/BasePage";
 import Search from "./pages/Search";
+import LikedSongs from "./pages/LikedSongs";
 
 function App():JSX.Element {
 
@@ -20,6 +21,7 @@ function App():JSX.Element {
 
           <Route path="/" element={<BasePage />}>
           <Route index element={<Home />} />
+          <Route path="favourite" element={<LikedSongs />} />
           <Route
             path="search"
             element={<Search />}

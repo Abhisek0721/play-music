@@ -31,18 +31,20 @@ const Sidebar = ():JSX.Element => {
                                 <span className="ms-3">Search</span>
                             </li>
                         </Link>
-                        <li className="nav-item nav-menu fs-5 my-3">
+                        {/* <li className="nav-item nav-menu fs-5 my-3">
                             <FaBook />
                             <span className="ms-3">Your Library</span>
                         </li>
                         <li className="nav-item nav-menu fs-5 my-3">
                             <FaPlusSquare />
                             <span className="ms-3">Create Playlist</span>
-                        </li>
-                        <li className="nav-item nav-menu fs-5 my-3">
-                            <FaHeart />
-                            <span className="ms-3">Liked Songs</span>
-                        </li>
+                        </li> */}
+                        <Link to={"/favourite"}>
+                            <li className="nav-item nav-menu fs-5 my-3">
+                                <FaHeart />
+                                <span className="ms-3">Liked Songs</span>
+                            </li>
+                        </Link>
                     </ul>
                 </div>
             </div>
