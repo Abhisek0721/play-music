@@ -6,7 +6,8 @@
 }
 
 #header {
-    position: absolute;
+    position: fixed;
+    padding: 0 50px;
     background-color: rgb(12, 10, 19);
 }
 

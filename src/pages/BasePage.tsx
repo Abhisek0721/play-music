@@ -20,7 +20,7 @@ const BasePage = ():JSX.Element => {
 
 
     return (
-        <div>
+        <div className="position-absolute top-0">
             <Header isAuth={isAuth} />
             <section className="d-flex min-vw-100">
                 {/* sidebar */}
@@ -33,8 +33,8 @@ const BasePage = ():JSX.Element => {
                 {/* component render */}
                 <div 
                     style={{"width": "100%"}}
-                    className={`container-fluid bg-dark text-white min-h-100`}>
-                        <div style={{"marginTop": "100px"}}>
+                    className={`container-fluid bg-dark text-white h-100 min-vh-100`}>
+                        <div style={{"marginTop": "100px", "marginLeft": "300px"}}>
                             <Outlet />
                         </div>
                 </div>
