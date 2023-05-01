@@ -45,7 +45,7 @@
 .neon-glow:hover{
     box-sizing: border-box;
     border: 1px solid var(--primary-color);
-    box-shadow: 0 0 1px #0029f5, 0 0 2px #2810e4, 0 0 80px #4f21f3;
+    box-shadow: 0 0 1px #0029f5, 0 0 2px #2810e4, 0 0 30px #4f21f3;
     transition: 1s;
 }
 .song-img{
