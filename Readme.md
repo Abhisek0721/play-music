@@ -2,4 +2,4 @@
 
 <h2>Here is the UI of Play Music</h1>
 
-<img src="" alt="./public/playmusic-ui.png" />
+<img src="https://i.ibb.co/jHn22ZL/Screenshot-2023-05-01-172544.png" alt="" />
